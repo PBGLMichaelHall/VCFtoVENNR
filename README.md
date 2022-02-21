@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VCFtoVENNR
 
 
@@ -453,6 +454,10 @@ chromoMap("chr2.txt", "SNP2.txt", ploidy = 1,title=c("Rice Samples 6,7,8,9,10 Co
 
 
 
+=======
+
+[VCFtoVENN.txt](https://github.com/PBGLMichaelHall/VCFtoVENNR/files/8108782/VCFtoVENN.txt)
+>>>>>>> 8128ea730899d184461f6ea217575325e6025b58
 
 
 
