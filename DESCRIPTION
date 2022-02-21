@@ -1,0 +1,17 @@
+Package: VCFtoVENNR
+Type: Package
+Title: Allows one to read a vcf file and then make Venn diagrams
+Version: 0.1.0
+Author: Michael Hall
+BugReports: https://github.com/PBGLMichaelHall/VCFtoVENNR/issues
+Maintainer: The package maintainer <michaelhall532@gmail.com>
+Description: Reads a vcf file and converts it into a Vennerable object which can then be plotted as a Venn Diagram
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: GenomicVis,
+  VariantAnnotation,
+  stringi,
+  chromoMap
+
+
