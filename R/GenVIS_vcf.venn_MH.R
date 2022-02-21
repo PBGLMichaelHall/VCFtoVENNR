@@ -11,7 +11,7 @@ GenVIS_vcf.venn_MH <- function (vcf.files, genome, sample.names = NULL, ...)
     if (length(vcf.files) != length(sample.names))
       stop("do.venn: length(sample.name) must equal length(vcf.files)")
   }
-  x <- lapply(vcf.files, function(f) rownames((rowData(readVCF(TabixFile(f), genome, ...)))))
+  x <- lapply(vcf.files, function(f) rownames((rowData(readVcf(TabixFile(f), genome, ...)))))
   names(x) <- sample.names
   list(venn = Vennerable::Venn(x), data = x)
 }
